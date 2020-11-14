@@ -1,0 +1,41 @@
+.score {
+    -fx-pref-width: 400;
+    -fx-pref-height: 100;
+}
+.gameOverScreen {
+    -fx-background-color: grey;
+}
+.fieldSizeTextField {
+    -fx-pref-width: 50;
+    -fx-pref-height: 40;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+}
+.gameTitle {
+    -fx-pref-width: 100;
+    -fx-pref-height: 100;
+}
+.newGameButton {
+    -fx-alignment: center;
+    -fx-pref-height: 100;
+    -fx-pref-width: 300;
+}
+.textFont {
+    -fx-font-size: 20pt;
+    -fx-font-family: Verdana, sans-serif;
+    -fx-font-weight: bold;
+}
+.container {
+    -fx-alignment: center;
+    -fx-padding: 10;
+}
+.border {
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+}
+.defaultGrey {
+    -fx-background-color: #DDDDDD;
+}
+.defaultRed {
+    -fx-background-color: #DFCFCF;
+}
