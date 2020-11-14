@@ -1,0 +1,139 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: url('/assets/images/bg_pattern.gif');
+    font-family: Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+
+    -webkit-user-select: none; /* Chrome all / Safari all */
+    -moz-user-select: none; /* Firefox all */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Likely future */
+}
+
+.site-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.site-inner {
+    position: relative;
+}
+
+.field {
+    width: 400px;
+    height: 400px;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.content-box {
+    width: 400px;
+    height: 100px;
+    margin: 10px auto;
+    background: #DDDDDD;
+    box-sizing: border-box;
+    border: 2px solid white;
+    position: relative;
+}
+
+.score {
+    text-align: center;
+}
+
+.score-gain {
+    opacity: 0;
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.shadow {
+    box-shadow: 0 0 15px 1px rgba(10, 10, 10, 0.75);
+}
+
+.title {
+    width: 98px;
+    height: 100%;
+    box-sizing: border-box;
+    border-right: 1px solid white;
+    float: left;
+    text-align: center;
+}
+
+.newgame {
+    width: 298px;
+    height: 100%;
+    float: right;
+    box-sizing: border-box;
+    border-left: 1px solid white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.newgame:hover {
+    background: #DFCFCF;
+}
+
+.newgame-text {
+    margin-left: -50px;
+}
+
+.text-middle {
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+.size-pick {
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    top: 32px;
+    margin-left: 8px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
+    border: 2px solid white;
+    background: #DDDDDD;
+}
+
+.gameOverScreen {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    z-index: 2;
+    background: grey;
+    opacity: .5;
+    line-height: 400px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 60px;
+    display: none;
+}
+
+.protip {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    color: white;
+    font-size: 10px;
+    text-align: right;
+}
+
+.link {
+    text-decoration: underline;
+    cursor: pointer;
+}
