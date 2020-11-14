@@ -1,0 +1,24 @@
+@main("2048") {
+    <div class="site-container">
+        <div class="site-inner">
+            <div class="content-box shadow">
+                <div class="title text-middle">2048</div>
+                <div class="newgame text-middle" id="newgame">
+                    <div class="newgame-text">
+                        new game <input type="text" class="size-pick" value="4" id="size-input">
+                    </div>
+                </div>
+            </div>
+            <div class="gameOverScreen" id="gameOverScreen">Game Over</div>
+            <div class="field shadow" id="field"></div>
+            <div class="content-box score text-middle shadow">
+                <span id="score">0</span>
+                <span class="score-gain" id="scoreGain">+1</span>
+            </div>
+        </div>
+    </div>
+    <div class="protip">
+        Protip: Use wasd or arrow keys to move, n to start a new game.<br>
+        <span id="ai-step" class="link">AI step</span>, <span id="ai-run" class="link">AI start/stop</span>
+    </div>
+}
